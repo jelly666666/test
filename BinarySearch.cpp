@@ -2,7 +2,7 @@ int BinarySearch(int array[], int n, int value)
 {
   int left = 0;
   int right = n - 1;
-  while(left < right)
+  while (left < right)
   {
      int middle = left + ((right - left) >> 1);
      int middleValue = array[middle];
